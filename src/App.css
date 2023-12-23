@@ -6,16 +6,38 @@
 }
 :root {
   --BG-COlOR: #161b23;
+  --MAIN-FONT-COLOR: white;
 }
 
+ul {
+  list-style-type: none;
+}
 .app {
-  /* background-color: var(--BG-COlOR); */
-  /* color: white; */
+  background-color: var(--BG-COlOR);
+  color: var(--MAIN-FONT-COLOR);
 }
 .Top-Page {
   height: 100vh;
-  background-image: url(src\assets\bkgimg.png);
+  background-image: url("/bkgimg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+.header ul {
+  display: flex;
+  column-gap: 1.5rem;
+}
+.right-header {
+  display: flex;
+  column-gap: 1.5rem;
+}
+.right-header .drop-down {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
 }
