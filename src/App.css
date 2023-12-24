@@ -146,9 +146,14 @@ ul {
   right: 30%;
   top: 0;
 }
+.mid-top {
+  margin: 2rem 5rem;
+}
 .right-mid h2 {
   font-family: gilroy;
+  font-size: 19px;
 }
 .right-mid h1 {
-  font-family: addisabeba;
+  /* font-family: addisabeba; */
+  font-size: 7rem;
 }
