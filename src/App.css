@@ -1,12 +1,22 @@
+@font-face {
+  font-family: gilroy;
+  src: url(assets/Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family: addisabeba;
+  src: url(assets/Ababa.ttf);
+}
+
+:root {
+  --BG-COlOR: #161b23;
+  --MAIN-FONT-COLOR: white;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scrollbar-width: thin; /* Firefox */
-}
-:root {
-  --BG-COlOR: #161b23;
-  --MAIN-FONT-COLOR: white;
 }
 
 a:any-link {
@@ -135,4 +145,10 @@ ul {
   position: absolute;
   right: 30%;
   top: 0;
+}
+.right-mid h2 {
+  font-family: gilroy;
+}
+.right-mid h1 {
+  font-family: addisabeba;
 }
