@@ -26,7 +26,8 @@ ul {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 3rem 5rem;
+  /* margin-left: 3rem; */
 }
 .header ul {
   display: flex;
@@ -77,4 +78,26 @@ ul {
 }
 .drop-down:hover .dropdown-content {
   opacity: 1;
+}
+.mid-landing {
+  position: relative;
+}
+.mid-landing .landing-text {
+  margin: -2rem 0 0 5rem;
+}
+
+.mid-landing .landing-text h2 {
+  font-size: 4rem;
+  margin-top: 5px;
+  font-weight: 500;
+}
+.landing-text h1 {
+  font-size: 10rem;
+  transform: translateY(-30px);
+  text-wrap: nowrap;
+}
+.mid-landing img {
+  position: absolute;
+  right: 30%;
+  top: 0;
 }
