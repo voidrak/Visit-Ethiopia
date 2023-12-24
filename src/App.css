@@ -18,15 +18,15 @@ ul {
 }
 .Top-Page {
   height: 100vh;
-  background-image: url("/bkgimg.png");
+  background-image: url("/BG-IMG.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center;
 }
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 1rem;
+  padding: 2rem;
 }
 .header ul {
   display: flex;
@@ -40,4 +40,32 @@ ul {
   display: flex;
   flex-direction: column;
   row-gap: 0.5rem;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+.drop-down .top-auth {
+  display: flex;
+  column-gap: 10px;
+  font-size: 14px;
+  background-color: #656669;
+  border: none;
+  padding: 3px 9px;
+  color: whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.drop-down .bottom-auth {
+  background: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  padding: 3px;
+}
+.drop-down:hover .dropdown-content {
+  opacity: 1;
 }
