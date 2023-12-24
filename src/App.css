@@ -20,7 +20,7 @@ ul {
   height: 100vh;
   background-image: url("/BG-IMG.png");
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   background-position: center;
 }
 .header {
@@ -32,6 +32,11 @@ ul {
   display: flex;
   column-gap: 1.5rem;
 }
+
+.header ul li {
+  font-size: 1.5rem;
+}
+
 .right-header {
   display: flex;
   column-gap: 1.5rem;
@@ -42,6 +47,9 @@ ul {
   row-gap: 0.5rem;
   cursor: pointer;
 }
+.right-header .search-svg {
+  margin-top: 5px;
+}
 
 .dropdown-content {
   opacity: 0;
@@ -51,9 +59,9 @@ ul {
   display: flex;
   column-gap: 10px;
   font-size: 14px;
-  background-color: #656669;
+  background-color: #77777a;
   border: none;
-  padding: 3px 9px;
+  padding: 5px 9px;
   color: whitesmoke;
   border-radius: 5px;
   cursor: pointer;
@@ -64,7 +72,8 @@ ul {
   border: none;
   color: rgb(255, 255, 255);
   font-size: 14px;
-  padding: 3px;
+  padding: 5px 9px;
+  cursor: pointer;
 }
 .drop-down:hover .dropdown-content {
   opacity: 1;
