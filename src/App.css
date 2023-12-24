@@ -9,6 +9,11 @@
   --MAIN-FONT-COLOR: white;
 }
 
+a:any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 ul {
   list-style-type: none;
 }
@@ -39,6 +44,10 @@ ul {
   font-size: 1.5rem;
 }
 
+.header ul li a:hover {
+  color: aquamarine;
+}
+
 .right-header {
   display: flex;
   column-gap: 1.5rem;
@@ -51,6 +60,27 @@ ul {
 }
 .right-header .search-svg {
   margin-top: 5px;
+
+  cursor: pointer;
+}
+.header-search {
+  display: flex;
+  column-gap: 10px;
+}
+.header-search input {
+  height: 1.5rem;
+  border-radius: 5px;
+  padding: 1rem 0;
+  margin-top: -2px;
+  outline: none;
+}
+
+.add-search input {
+  display: none;
+  background-color: red;
+}
+.remove-search .search-svg {
+  /* transform: translateX(150px); */
 }
 
 .dropdown-content {
