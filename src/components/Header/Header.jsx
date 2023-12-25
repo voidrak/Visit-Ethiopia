@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Header = () => {
   const [topAuth, setTopAuth] = useState("Log in");
   const [bottomAuth, setBottomAuth] = useState("Sign up");
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(true);
 
   function handleAuthType(e) {
     if (e.target.textContent === "Sign up") {
