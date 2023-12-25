@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital@1&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Permanent+Marker&family=Poppins:ital@1&display=swap");
 @font-face {
   font-family: gilroy;
   src: url(assets/Gilroy-Regular.ttf);
@@ -145,13 +144,34 @@ ul {
   top: 0;
 }
 .mid-top {
-  margin: 2rem 5rem;
+  margin: 4rem 5rem;
+  display: flex;
+  justify-content: space-between;
 }
-.right-mid h2 {
+.left-mid h2 {
   font-family: gilroy;
+  font-weight: 400;
   font-size: 19px;
+  margin-left: 5px;
 }
-.right-mid h1 {
-  font-size: 7rem;
-  font-family: "Poppins", sans-serif;
+.left-mid h1 {
+  font-size: 6rem;
+  text-wrap: nowrap;
+  font-family: cursive;
+  font-weight: normal;
+  word-spacing: 25px;
+  margin-top: -10px;
+  /* transform: translateY(-1rem); */
+}
+.left-mid h1:last-child {
+  /* color: red; */
+  margin-top: -1.7rem;
+}
+.right-mid {
+  width: 260px;
+  margin-top: 2rem;
+  word-spacing: 4px;
+  margin-right: 5rem;
+  text-shadow: rgba(252, 252, 252, 0.9) 0px 0px 0px;
+  font-weight: 600;
 }
