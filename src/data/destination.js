@@ -5,6 +5,7 @@ const destinationData = {
       location: "capital city, Central Ethiopia",
       description:
         "the capital city of Ethiopia, is a captivating tourist destination renowned for its vibrant culture, rich history, and breathtaking landscapes. Visitors can explore the city's bustling markets, where they can discover traditional crafts, vibrant textiles, and delicious Ethiopian cuisine",
+      img: "addis_abeba.png",
     },
 
     {
@@ -12,12 +13,14 @@ const destinationData = {
       location: "Tigray,Northern Ethiopia ",
       description:
         "a historic city nestled in northern Ethiopia, is an intriguing tourist destination that takes visitors on a journey back in time. Known for its ancient archaeological sites and religious significance, Axum offers a captivating glimpse into the once-mighty Axumite Empire",
+      img: "axumpng.png",
     },
     {
       name: "Sof Omar",
       location: "Jima,southeastern Ethiopia ",
       description:
         "a hidden gem in southeastern Ethiopia, is an extraordinary tourist destination that enchants visitors with its natural wonders and spiritual allure. The Sof Omar Cave, one of the world's largest cave systems, captivates adventurers with its colossal chambers, underground rivers, and intricate rock formations",
+      img: "sof_omarpng.png",
     },
     {
       name: "Fasil Ghebbi",
@@ -36,6 +39,7 @@ const destinationData = {
       location: "Gurage, Southern Ethiopia ",
       description:
         "as a captivating archaeological site and UNESCO World Heritage site that offers a glimpse into Ethiopia's ancient past. The site is known for its remarkable collection of engraved stone pillars, known as stelae, which date back to the 12th to 14th centuries. These intricately carved pillars, adorned with symbols and motifs, provide valuable insights into the culture and traditions of the ancient Ethiopian civilization.",
+      img: "",
     },
     {
       name: "Harar Jugol,",
