@@ -1,12 +1,12 @@
 import React from "react";
 import { MidTop } from "./MidTop";
-import { MIdBott } from "./MIdBott";
+import { DestinationFilter } from "./DestinationFilter";
 
 export const MidPage = () => {
   return (
     <div mid-page>
       <MidTop />
-      <MIdBott />
+      <DestinationFilter />
     </div>
   );
 };
