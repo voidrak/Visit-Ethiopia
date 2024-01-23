@@ -1,12 +1,12 @@
 import React from "react";
 import { MidTop } from "./MidTop";
-import { DestinationFilter } from "./DestinationFilter";
+import { DestinationCard } from "./DestinationCard";
 
 export const MidPage = () => {
   return (
-    <div mid-page>
+    <div className="mid-page">
       <MidTop />
-      <DestinationFilter />
+      <DestinationCard />
     </div>
   );
 };
