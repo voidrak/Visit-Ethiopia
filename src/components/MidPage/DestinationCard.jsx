@@ -5,17 +5,22 @@ export const DestinationCard = () => {
   const [itemData, setItemData] = useState(destinationData);
   const [activeButton, setActiveButton] = useState("All");
   const [currentIndex, setCurrentIndex] = useState(0);
+
   function filterItems(cat) {
     const newItems = itemData.filter((items) => items.category === cat);
     setItemData(newItems);
   }
 
-  function nextSlide() {
-    setCurrentIndex = currentIndex + 1;
+  function updateIndex(newIndex) {
+    if (newIndex < 0) {
+      newIndex = 0;
+    } else if (newIndex >= itemData.length) {
+      newIndex = itemData.length - 1;
+    }
+
+    setCurrentIndex(newIndex);
   }
-  function perviousSlide() {
-    setCurrentIndex = currentIndex - 1;
-  }
+  console.log(itemData.length);
 
   const mappedItems = itemData.map((card) => (
     <div className="slider-card" key={card.name}>
@@ -62,7 +67,9 @@ export const DestinationCard = () => {
               src="pervious_arrow.png"
               alt="pervious arrow"
               className="pervious-arrow"
-              onClick={perviousSlide}
+              onClick={() => {
+                updateIndex(currentIndex - 1);
+              }}
             />
           </button>
           <button>
@@ -70,7 +77,9 @@ export const DestinationCard = () => {
               src="next_arrow.png"
               alt="next arrow"
               className="next-arrow"
-              onClick={nextSlide}
+              onClick={() => {
+                updateIndex(currentIndex + 1);
+              }}
             />
           </button>
         </div>
@@ -78,7 +87,7 @@ export const DestinationCard = () => {
       <h1 className="card-title">Popular Destination</h1>
       <div
         className="carousel"
-        style={{ transform: `translate(-${currentIndex * 100}%)` }}
+        style={{ transform: `translate(-${currentIndex * 10}%)` }}
       >
         {mappedItems}
       </div>
