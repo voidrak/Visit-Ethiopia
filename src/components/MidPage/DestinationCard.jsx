@@ -34,7 +34,6 @@ export const DestinationCard = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      {/* <img src={card.img} alt="destination image" /> */}
       <div className="drop-shadow"> </div>
       <div className="card-info">
         <h1>{card.name}</h1>

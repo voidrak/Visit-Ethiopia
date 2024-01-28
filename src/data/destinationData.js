@@ -63,7 +63,7 @@ const destinationData = [
     description:
       "nestled in the Ethiopian highlands, is a breathtakingly beautiful and diverse tourist destination. Home to stunning landscapes.",
     img: "bale.png",
-    category: "Null",
+    category: "Near by",
   },
 ];
 
