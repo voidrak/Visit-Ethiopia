@@ -14,27 +14,38 @@ export const DestinationCard = () => {
   function updateIndex(newIndex) {
     if (newIndex < 0) {
       newIndex = 0;
-    } else if (newIndex >= itemData.length) {
-      newIndex = itemData.length - 1;
+    } else if (newIndex >= itemData.length - 2) {
+      newIndex = itemData.length - 3;
     }
-
+    console.log(newIndex);
     setCurrentIndex(newIndex);
   }
-  console.log(itemData.length);
+  // console.log(itemData.length);
 
   const mappedItems = itemData.map((card) => (
-    <div className="slider-card" key={card.name}>
-      <img src={card.img} alt="destination image" />
+    <div
+      className="slider-card"
+      key={card.name}
+      style={{
+        transform: `translate(-${currentIndex * 90}%)`,
+        backgroundImage: `url(${card.img})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      {/* <img src={card.img} alt="destination image" /> */}
+      <div className="drop-shadow"> </div>
       <div className="card-info">
         <h1>{card.name}</h1>
         <p className="card-location">{card.location}</p>
         <p className="card-description">{card.description}</p>
-        <button className="book-now">
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <img src="Book Now.png" alt="book now" />
-          </a>
-        </button>
       </div>
+      <button className="book-now">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src="Book Now.png" alt="book now" />
+        </a>
+      </button>
     </div>
   ));
   return (
@@ -85,12 +96,7 @@ export const DestinationCard = () => {
         </div>
       </div>
       <h1 className="card-title">Popular Destination</h1>
-      <div
-        className="carousel"
-        style={{ transform: `translate(-${currentIndex * 10}%)` }}
-      >
-        {mappedItems}
-      </div>
+      <div className="carousel">{mappedItems}</div>
     </div>
   );
 };
