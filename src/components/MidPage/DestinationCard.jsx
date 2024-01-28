@@ -14,13 +14,12 @@ export const DestinationCard = () => {
   function updateIndex(newIndex) {
     if (newIndex < 0) {
       newIndex = 0;
-    } else if (newIndex >= itemData.length - 2) {
-      newIndex = itemData.length - 3;
+    } else if (newIndex >= itemData.length - 1) {
+      newIndex = itemData.length - 2;
     }
-    console.log(newIndex);
+
     setCurrentIndex(newIndex);
   }
-  // console.log(itemData.length);
 
   const mappedItems = itemData.map((card) => (
     <div

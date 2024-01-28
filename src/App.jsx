@@ -2,13 +2,14 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { MidPage } from "./components/MidPage/MidPage";
 import { TopPage } from "./components/TopPage/TopPage";
-import { MobileVersion } from "./components/MobileVersion/MobileVersion";
+import SmallScreen from "./components/MobileVersion/SmallScreen";
 
 function App() {
   const [screenWidth, setScreenWidth] = useState(window.innerHeight);
   useEffect(() => {
     function handleResize() {
       setScreenWidth(window.innerWidth);
+      console.log(screenWidth);
     }
     window.addEventListener("resize", handleResize);
     return () => {
@@ -18,13 +19,13 @@ function App() {
 
   return (
     <div className="app">
-      {screenWidth > 1920 ? (
+      {screenWidth >= 1516 ? (
         <>
           <TopPage />
           <MidPage />
         </>
       ) : (
-        <MobileVersion />
+        <SmallScreen />
       )}
     </div>
   );
