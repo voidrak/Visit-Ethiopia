@@ -6,7 +6,7 @@ const SmallScreen = () => {
       <h1>
         sorry your device is not supported please visit us in larger screen 💻
       </h1>
-      <p>we know our designer sucks</p>
+      <p>Try to Resize your Window Again</p>
     </div>
   );
 };

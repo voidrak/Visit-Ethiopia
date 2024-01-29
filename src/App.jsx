@@ -6,10 +6,11 @@ import SmallScreen from "./components/MobileVersion/SmallScreen";
 import { ShouldVisit } from "./components/ShouldVisit/ShouldVist";
 
 function App() {
-  const [screenWidth, setScreenWidth] = useState(window.innerHeight);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   useEffect(() => {
     function handleResize() {
       setScreenWidth(window.innerWidth);
+      console.log(screenWidth);
     }
     window.addEventListener("resize", handleResize);
     return () => {
