@@ -33,7 +33,7 @@ export const DestinationCard = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="drop-shadow"> </div>
+      {/* <div className="drop-shadow"> </div> */}
       <div className="card-info">
         <h1>{card.name}</h1>
         <p className="card-location">{card.location}</p>

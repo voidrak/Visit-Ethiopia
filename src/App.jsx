@@ -3,13 +3,13 @@ import "./App.css";
 import { MidPage } from "./components/MidPage/MidPage";
 import { TopPage } from "./components/TopPage/TopPage";
 import SmallScreen from "./components/MobileVersion/SmallScreen";
+import { ShouldVisit } from "./components/ShouldVisit/ShouldVist";
 
 function App() {
   const [screenWidth, setScreenWidth] = useState(window.innerHeight);
   useEffect(() => {
     function handleResize() {
       setScreenWidth(window.innerWidth);
-      console.log(screenWidth);
     }
     window.addEventListener("resize", handleResize);
     return () => {
@@ -23,6 +23,7 @@ function App() {
         <>
           <TopPage />
           <MidPage />
+          <ShouldVisit />
         </>
       ) : (
         <SmallScreen />
