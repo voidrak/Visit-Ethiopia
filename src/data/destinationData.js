@@ -10,7 +10,7 @@ const destinationData = [
 
   {
     name: "Axum",
-    location: "Tigray,Northern Ethiopia ",
+    location: "Tigray, Northern Ethiopia ",
     description:
       "a historic city nestled in northern Ethiopia, is an intriguing tourist destination that takes visitors on a journey back in time.",
     img: "axumpng.png",
@@ -18,9 +18,9 @@ const destinationData = [
   },
   {
     name: "Sof Omar",
-    location: "Jima,southeastern Ethiopia ",
+    location: "Jima, Southeastern Ethiopia ",
     description:
-      "a hidden gem in southeastern Ethiopia, is an extraordinary tourist destination that enchants visitors with its natural wonders and spiritual allure. ",
+      "a hidden gem in southeastern Ethiopia, is an extraordinary tourist destination that enchants visitors with its natural wonders. ",
     img: "sof_omarpng.png",
     category: "Near by",
   },
@@ -59,7 +59,7 @@ const destinationData = [
   },
   {
     name: "Bale Mountains National Park",
-    location: "Oromia,  Southeast Ethiopia ",
+    location: "Oromia, Southeast Ethiopia ",
     description:
       "nestled in the Ethiopian highlands, is a breathtakingly beautiful and diverse tourist destination. Home to stunning landscapes.",
     img: "bale.png",

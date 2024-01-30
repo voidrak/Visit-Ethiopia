@@ -261,6 +261,11 @@ ul {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #ffbe40;
 }
+.card-info .card-location svg {
+  width: 10px;
+  fill: #ffbe40;
+  margin-right: 5px;
+}
 
 .controls-btn {
   display: flex;
@@ -368,7 +373,7 @@ ul {
 .Video-Section {
   margin-top: 3rem;
   margin-bottom: 13rem;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .Video-Section .video-desc {
   display: flex;
@@ -387,6 +392,8 @@ ul {
 }
 .Video-Section .video-part {
   margin: 2rem 3rem 0 3rem;
+  display: flex;
+  column-gap: 4rem;
 }
 .playing-vid {
   width: 750px;
@@ -397,4 +404,31 @@ ul {
 .playing-vid h1 {
   font-size: 20px;
   margin: 1rem 0;
+}
+.playing-vid .location {
+  color: #ffbe40;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.playing-vid .location svg {
+  width: 10px;
+  fill: #ffbe40;
+  margin-right: 5px;
+}
+.list-vid .list-inner {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  column-gap: 1rem;
+  margin-top: 10px;
+}
+.list-vid img {
+  width: 115px;
+  aspect-ratio: 3/4;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.list-vid img:hover {
+  transform: scale(1.06);
 }
