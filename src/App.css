@@ -13,6 +13,7 @@
   padding: 0;
   box-sizing: border-box;
   scrollbar-width: thin; /* Firefox */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a:any-link {
@@ -366,4 +367,34 @@ ul {
 }
 .Video-Section {
   margin-top: 3rem;
+  margin-bottom: 13rem;
+  height: 100vh;
+}
+.Video-Section .video-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Video-Section .video-desc h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+.Video-Section .video-desc p {
+  text-align: center;
+  width: 800px;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+.Video-Section .video-part {
+  margin: 2rem 3rem 0 3rem;
+}
+.playing-vid {
+  width: 750px;
+}
+.playing-vid video {
+  border-radius: 36px;
+}
+.playing-vid h1 {
+  font-size: 20px;
+  margin: 1rem 0;
 }

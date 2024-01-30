@@ -5,7 +5,7 @@ const videoInfoData = [
     description:
       "Prepare to be amazed as we delve into the unique cultures and traditions of the indigenous tribes that call the Omo Valley home. From the Hamar, Mursi, and Karo tribes to the Arbore, Nyangatom, and Bodi tribes, each group offers a fascinating glimpse into their distinct way of life, with vibrant attire, intricate body art, and traditional ceremonies that have been passed down through generations",
     location: " Southern Ethiopia",
-    videoSrc: "https://www.youtube.com/watch?v=-9I0pL282L0",
+    videoSrc: "omovalley.mp4",
     imgSrc: "OmoValley.png",
   },
   {
@@ -46,3 +46,5 @@ const videoInfoData = [
     imgSrc: "Erta Ale.png",
   },
 ];
+
+export default videoInfoData;
