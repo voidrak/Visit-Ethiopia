@@ -4,6 +4,7 @@ import { MidPage } from "./components/MidPage/MidPage";
 import { TopPage } from "./components/TopPage/TopPage";
 import SmallScreen from "./components/MobileVersion/SmallScreen";
 import { ShouldVisit } from "./components/ShouldVisit/ShouldVist";
+import VideoSection from "./components/VideoSection/VideoSection";
 
 function App() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -25,6 +26,7 @@ function App() {
           <TopPage />
           <MidPage />
           <ShouldVisit />
+          <VideoSection />
         </>
       ) : (
         <SmallScreen />

@@ -364,3 +364,6 @@ ul {
 .ShouldVisit .book-now-2 img:hover {
   transform: scale(0.96);
 }
+.Video-Section {
+  margin-top: 3rem;
+}
