@@ -71,6 +71,9 @@ ul {
 .header ul li a:hover {
   color: #ffbe40;
 }
+.mara-logo {
+  margin-top: 4px;
+}
 
 .right-header {
   display: flex;
@@ -150,6 +153,7 @@ ul {
   font-weight: 100;
   transform: translate(15px, 35px);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  animation: fade-in 2s ease-in forwards;
 }
 .landing-text h1 {
   font-size: 20rem;
@@ -157,11 +161,30 @@ ul {
   transform: translateY(-30px);
   text-wrap: nowrap;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  animation: fade-in 2s ease-in forwards;
+}
+@keyframes fade-in {
+  0% {
+    transform: translateX(-1500px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 .mid-landing img {
   position: absolute;
   right: 30%;
-  top: 0;
+  top: 600px;
+  animation: move-in 2s ease-in forwards;
+}
+
+@keyframes move-in {
+  0% {
+    top: 600px;
+  }
+  100% {
+    top: 0;
+  }
 }
 .mid-top {
   margin: 4rem 5rem;
@@ -437,7 +460,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 5rem;
+  margin: 0 5rem 9rem 5rem;
 }
 
 .search-section h1 {
@@ -494,8 +517,18 @@ ul {
 .contact-section {
   display: flex;
   justify-content: space-between;
+  padding: 3rem 5rem 0 1rem;
+  padding-bottom: 5rem;
+  background-color: #2b2a33;
+  border-radius: 100px 0 0 0;
+}
+.contact-section .tittle {
+  color: #64c6e5;
+  margin-bottom: 1rem;
 }
 .contact-section .logo-social {
+  margin-right: 5rem;
+  margin-left: 5rem;
 }
 .contact-section .logo {
   display: flex;
@@ -503,14 +536,48 @@ ul {
 }
 
 .contact-section .logo h1 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   letter-spacing: 1px;
+  margin-top: -2px;
 }
-.payment img {
+.contact-section .logo img {
   width: 100px;
 }
-.social svg {
-  width: 15px;
+
+.contact-section .logo-social p {
+  width: 230px;
+  margin-top: 1rem;
+}
+
+.logo-social .social a svg {
+  width: 20px;
   height: auto;
+  margin-top: 1rem;
+  margin-right: 20px;
+}
+.logo-social .social .facebook svg {
+  width: 15px;
+}
+
+.contact ul {
+  margin-bottom: 1.4rem;
+}
+.contact ul li {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 5px;
+}
+.contact ul svg {
+  margin-top: 2px;
+}
+.payment-logo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px 1.2rem;
+}
+.payment-logo img {
+  width: 60px;
 }
