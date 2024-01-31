@@ -491,3 +491,26 @@ ul {
   width: 700px;
   height: auto;
 }
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-section .logo-social {
+}
+.contact-section .logo {
+  display: flex;
+  align-items: center;
+}
+
+.contact-section .logo h1 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.payment img {
+  width: 100px;
+}
+.social svg {
+  width: 15px;
+  height: auto;
+}
