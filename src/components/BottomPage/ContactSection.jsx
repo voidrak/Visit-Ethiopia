@@ -78,9 +78,6 @@ const ContactSection = () => {
 
         <ul>
           <li>
-            <a href="#">Contact Information</a>
-          </li>
-          <li>
             <a href="#">About Us</a>
           </li>
           <li>
