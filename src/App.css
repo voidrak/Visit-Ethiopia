@@ -447,8 +447,8 @@ ul {
   margin-top: 10px;
 }
 .list-vid img {
-  width: 115px;
-  aspect-ratio: 3/4;
+  width: 200px;
+  /* aspect-ratio: 3/4; */
   border-radius: 15px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
