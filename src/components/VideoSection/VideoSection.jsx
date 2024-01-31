@@ -5,7 +5,7 @@ const VideoSection = () => {
   const [currentVideoId, setCurrentVideoId] = useState("001");
   const [videoData, setVideoData] = useState(videoInfoData);
 
-  const ListVideos = videoData.filter((item) => item.id != currentVideoId);
+  const ListVideos = videoData.filter((item) => item.id !== currentVideoId);
   const CurrentPlaying = videoData.filter((item) => item.id === currentVideoId);
   function handleVideoSelection(id) {
     setCurrentVideoId(id);
