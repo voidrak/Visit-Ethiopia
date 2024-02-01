@@ -556,6 +556,9 @@ ul {
   margin-top: 1rem;
   margin-right: 20px;
 }
+.logo-social .social a svg:hover {
+  transform: scale(1.1);
+}
 .logo-social .social .facebook svg {
   width: 15px;
 }
@@ -586,4 +589,7 @@ ul {
 }
 .payment-logo img {
   width: 60px;
+}
+.payment-logo a:hover {
+  transform: scale(1.1);
 }
