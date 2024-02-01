@@ -14,7 +14,7 @@ const ContactSection = () => {
         </p>
         <div className="social">
           <a
-            href="#"
+            href="https://www.facebook.com/profile.php?id=100069558991672"
             target="_blank"
             rel="noopener noreferrer"
             className="facebook"
@@ -27,7 +27,11 @@ const ContactSection = () => {
             </svg>
           </a>
 
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.instagram.com/nahomrak/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path
                 fill="#ffffff"
@@ -36,7 +40,11 @@ const ContactSection = () => {
             </svg>
           </a>
 
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://twitter.com/rakkpoper"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path
                 fill="#ffffff"
@@ -44,7 +52,11 @@ const ContactSection = () => {
               />
             </svg>
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/nahom-abraham-460656286/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path
                 fill="#ffffff"
@@ -85,6 +97,9 @@ const ContactSection = () => {
           </li>
           <li>
             <a href="#">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#">Copyright Notice</a>
           </li>
         </ul>
       </div>
@@ -159,13 +174,21 @@ const ContactSection = () => {
           >
             <img src="PayPal New 2023.svg" alt="" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://m-pesa.safaricom.et/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="MPESA LOGO.png" alt="" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://coopbankoromia.com.et/e-banking-2-3/e-banking/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="Cooperative Bank of Oromia Logo.svg" alt="" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://chapa.co/" target="_blank" rel="noopener noreferrer">
             <img src="Chapa Logo.svg" alt="" />
           </a>
         </div>
