@@ -1,8 +1,12 @@
-# React + Vite
+<h1 align="center" id="title">Visit Ethiopia</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p id="description">Welcome to our website your ultimate guide to exploring the breathtaking tourist sites of Ethiopia. Discover the rich cultural heritage stunning landscapes and vibrant traditions that make Ethiopia a must-visit destination. With our user-friendly platform you can easily find and book hotels near your desired tourist sites ensuring a seamless and hassle-free travel experience. Start planning your Ethiopian adventure today and uncover the wonders of this remarkable country with ease and convenience.</p>
 
-Currently, two official plugins are available:
+  
+  
+<h2>💻 Built with</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies used in the project:
+
+*   REACT
+*   CSS
