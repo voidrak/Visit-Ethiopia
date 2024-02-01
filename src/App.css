@@ -151,14 +151,15 @@ ul {
   font-size: 5vw;
   margin-top: 5px;
   font-weight: 100;
-  transform: translate(15px, 35px);
+  /* transform: translate(15px, 35px); */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   animation: fade-in 2s ease-in forwards;
+  margin-left: 10px;
 }
 .landing-text h1 {
   font-size: 20rem;
   letter-spacing: 5px;
-  transform: translateY(-30px);
+  /* transform: translateY(-30px); */
   text-wrap: nowrap;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   animation: fade-in 2s ease-in forwards;

@@ -46,7 +46,7 @@ export const DestinationCard = () => {
         <p className="card-description">{card.description}</p>
       </div>
       <button className="book-now">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href={`${card.link}`} target="_blank" rel="noopener noreferrer">
           <img src="Book Now.png" alt="book now" />
         </a>
       </button>

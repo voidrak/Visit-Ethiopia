@@ -15,7 +15,11 @@ export const ShouldVisit = () => {
           waiting to be discovered.
         </p>
         <button className="book-now-2">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.tripadvisor.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="Button2.png" alt="" />
           </a>
         </button>
