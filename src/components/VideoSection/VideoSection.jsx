@@ -24,8 +24,6 @@ const VideoSection = () => {
       <div className="video-part">
         <div className="playing-vid">
           <video
-            width="750px"
-            height="520px"
             src={`${CurrentPlaying[0].videoSrc}`}
             controls
             poster={`${CurrentPlaying[0].imgSrc}`}

@@ -52,6 +52,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-bottom: 5rem;
 }
 .header {
   display: flex;
@@ -145,19 +146,20 @@ ul {
   position: relative;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .mid-landing .landing-text h2 {
   font-size: 5vw;
   margin-top: 5px;
   font-weight: 100;
-  /* transform: translate(15px, 35px); */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   animation: fade-in 2s ease-in forwards;
-  margin-left: 10px;
+  margin-left: 15px;
+  margin-bottom: -70px;
 }
 .landing-text h1 {
-  font-size: 20rem;
+  font-size: 20vw;
   letter-spacing: 5px;
   /* transform: translateY(-30px); */
   text-wrap: nowrap;
@@ -170,6 +172,7 @@ ul {
   }
   100% {
     transform: translateX(0px);
+    transform: translate(15px, 35px);
   }
 }
 .mid-landing img {
@@ -185,6 +188,7 @@ ul {
   }
   100% {
     top: 0;
+    transform: translate(30px, -25px);
   }
 }
 .mid-top {
@@ -205,6 +209,7 @@ ul {
   font-weight: normal;
   word-spacing: 25px;
   margin-top: -10px;
+
   /* transform: translateY(-1rem); */
 }
 .left-mid h1:last-child {
@@ -425,6 +430,8 @@ ul {
 }
 .playing-vid video {
   border-radius: 36px;
+  width: 750px;
+  height: auto;
 }
 .playing-vid h1 {
   font-size: 20px;
@@ -459,7 +466,7 @@ ul {
 }
 .bottom-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin: 0 5rem 9rem 5rem;
 }
@@ -593,4 +600,57 @@ ul {
 }
 .payment-logo a:hover {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 1430px) {
+  @keyframes move-in {
+    0% {
+      top: 600px;
+    }
+    100% {
+      top: 0;
+      transform: translate(70px, -25px);
+    }
+  }
+  .playing-vid {
+    width: 700px;
+  }
+  .playing-vid video {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  @keyframes move-in {
+    0% {
+      top: 600px;
+    }
+    100% {
+      top: 0;
+      transform: translate(110px, -25px);
+    }
+  }
+
+  .left-mid h1 {
+    font-size: 4rem;
+  }
+
+  .Video-Section .video-part {
+    column-gap: 2rem;
+  }
+
+  .airplane-img img {
+    width: 600px;
+    height: auto;
+  }
+
+  .contact ul li {
+    font-size: 12px;
+  }
+  .playing-vid {
+    width: 650px;
+  }
+  .playing-vid video {
+    width: 650px;
+  }
 }
