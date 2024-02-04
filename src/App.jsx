@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="app">
-      {screenWidth >= 120 ? (
+      {screenWidth >= 1260 ? (
         <>
           <TopPage />
           <MidPage />
