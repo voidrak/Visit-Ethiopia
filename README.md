@@ -2,7 +2,7 @@
 
 <p id="description">Welcome to our website your ultimate guide to exploring the breathtaking tourist sites of Ethiopia. Discover the rich cultural heritage stunning landscapes and vibrant traditions that make Ethiopia a must-visit destination. With our user-friendly platform you can easily find and book hotels near your desired tourist sites ensuring a seamless and hassle-free travel experience. Start planning your Ethiopian adventure today and uncover the wonders of this remarkable country with ease and convenience.</p>
 
-<h1>Cuurent Only Desktop Version, Mobile version very Soon</h1>
+<h1>Currently  Only Desktop Version Is Available; Mobile version very Soon</h1>
 
 <h2>🕸️ Demo</h2>
 <p>https://vist-ethiopia.vercel.app/</p>
