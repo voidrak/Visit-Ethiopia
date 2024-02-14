@@ -6,7 +6,7 @@
 <p>Mobile version very Soon</p>
 
 <h2>🕸️ Demo</h2>
-<p>https://vist-ethiopia.vercel.app/</p>
+<phttps://visit-ethio.vercel.app/</p>
   
   
 <h2>💻 Built with</h2>
