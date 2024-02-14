@@ -6,7 +6,7 @@
 <p>Mobile version very Soon</p>
 
 <h2>🕸️ Demo</h2>
-<phttps://visit-ethio.vercel.app/</p>
+<p>https://visit-ethio.vercel.app/</p>
   
   
 <h2>💻 Built with</h2>
