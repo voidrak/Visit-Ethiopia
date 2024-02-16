@@ -602,6 +602,13 @@ ul {
   transform: scale(1.1);
 }
 
+.grid-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+}
+
 @media screen and (max-width: 1430px) {
   @keyframes move-in {
     0% {

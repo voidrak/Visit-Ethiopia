@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     function handleResize() {
       setScreenWidth(window.innerWidth);
-      console.log(screenWidth);
+      // console.log(screenWidth);
     }
     window.addEventListener("resize", handleResize);
     return () => {
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="app">
-      {screenWidth >= 120 ? (
+      {screenWidth >= 1025 ? (
         <>
           <TopPage />
           <MidPage />
