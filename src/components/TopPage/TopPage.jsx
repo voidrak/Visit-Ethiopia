@@ -3,18 +3,25 @@ import Header from "./Header/Header";
 import { MidLanding } from "./MidLanding/MidLanding";
 import { Grid } from "react-loader-spinner";
 export const TopPage = () => {
-  const [imagesLoaded, setImagesLoaded] = useState(false);
+  const [imagesLoaded, setImagesLoaded] = useState(0);
 
   useEffect(() => {
     const backgroundImage = new Image();
-    backgroundImage.src = "/LallibelaPic.png";
+    const lalibelaPic = new Image();
+    lalibelaPic.src = "/LallibelaPic.png";
+    backgroundImage.src = "/BG-IMG.png";
     backgroundImage.onload = () => {
-      setImagesLoaded(true);
+      setImagesLoaded((prev) => prev + 1);
+    };
+
+    lalibelaPic.onload = () => {
+      setImagesLoaded((prev) => prev + 1);
     };
   }, []);
+
   return (
     <div className="Top-Page">
-      {imagesLoaded && (
+      {imagesLoaded > 1 && (
         <>
           <Header />
           <MidLanding />
